@@ -4,10 +4,11 @@
 To create an autonomous gardening system that can self regulate, but also be controlled through a web interface by anyone with the correct credentials from anywhere in the world.
 
 ## Method
-1. Write a program that takes in air temperature and soil humidity readings from sensors and waters the garden autonomously through ball valves controlled by a raspberry Pi.
+1. Write a program that takes in air temperature and soil humidity readings from sensors and waters the garden autonomously through ball valves controlled by a raspberry Pi
 2. Incorporate a livestream function into the program using a PiCamera
-3. Create a Flask webpage that supports toggling various Pi IO (ball valves for watering)
-4. Host the webpage on AWS EC2 instance so that the page can be accessed by those with the correct credentials from anywhere in the world
+3. Store historical humidity and temperature data in a database and visualize that historical data
+4. Create a Flask webpage that supports toggling various Pi IO (ball valves for watering)
+5. Host the webpage on AWS EC2 instance so that the page can be accessed by those with the correct credentials from anywhere in the world
 
 ## Equipment
 1. Raspberry Pi 4B+
